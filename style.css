@@ -86,3 +86,11 @@ section {
 .listfooter{
   list-style: none;
 }
+
+.h2-billeterie {
+text-align: center;
+}
+
+/* .accordion-button {
+  display: block;
+} */
