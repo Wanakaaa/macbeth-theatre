@@ -1,0 +1,53 @@
+body {
+  position: relative;
+  font-family: roboto;
+  margin: 0px;
+  padding: 0px;
+  height: 100vh;
+}
+
+header {
+  background-color: #772E25;
+}
+
+header img {
+  width: 200px;
+  height: auto;
+}
+
+#carousel {
+  border-style: solid;
+  border-width: 5px;
+}
+
+#conteneur {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 100px;
+}
+
+.block1 {
+  background-color: lightgrey;
+
+  border: 1px solid black;
+}
+
+.block2 {
+  background-color: lightgrey;
+  border: 1px solid black;
+} 
+
+
+footer {
+  position: absolute;
+  bottom: 0;
+  background: #111;
+  width: 100vw;
+}
+
+
+.container {
+  padding-top: 10px;
+  margin-top: 10px;
+}
