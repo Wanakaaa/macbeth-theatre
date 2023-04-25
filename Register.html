@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
+    <title>Register</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
 
@@ -46,27 +46,47 @@
         </div>
     </header>
 
-    <div class="container">
+    <div class="containerconnexion">
 
         <form class="formconnexion">
-            <h1 class="text-center"">Se connecter</h1>
+            <h1 classe="text-center">S'enregistrer</h1>
 
-            <label for="adressemail">Email address</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
-                placeholder="exemple@exemple.com">
-
+            <label for="adressemail">Adresse email</label>
+            <input type="email" id="exampleInputEmail1" placeholder="exemple@exemple.com">
             <label for="exampleInputPassword1">Password</label>
-            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+            <input type="password" id="exampleInputPassword1" placeholder="Password">
 
-            <input type="checkbox" class="form-check-input" id="exampleCheck1">
-            <label class="form-check-label" for="exampleCheck1">Se souvenir de moi</label>
+            <label for="exampleInputPassword1">Taper de nouveau votre mot de passe</label>
+            <input type="password" id="exampleInputPassword2" placeholder="Password">
 
-            <button type="submit" class="btn btn-warning buttonlogin">Connexion</button>
+            <label for="surname">Nom</label>
+            <input type="text" id="examplesurname" placeholder="Nom">
+
+            <label for="surname">Prénom</label>
+            <input type="text" id="examplefirstname" placeholder="Prénom">
 
 
-            <p class=text-center>Pas de compte?
-                <a href="#">S'enregistrer</a>
-            </p>
+            <select>
+                <option>Sélectionner votre pays</option>
+                <option>France</option>
+                <option>Belgique</option>
+                <option>Suisse</option>
+            </select>
+
+
+            <input type="checkbox" id="cb1">
+            <label for="cb1">J'accepte les conditions générales</label>
+
+            <br>
+
+            <input type="checkbox" id="cb2">
+            <label for="cb2">Je m'abonne à la Newsletter</label>
+
+            <button type="submit" class="btn btn-warning buttonlogin">Créer mon
+                compte</button>
+
+
+
         </form>
     </div>
 
