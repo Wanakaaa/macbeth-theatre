@@ -10,7 +10,6 @@ body {
   margin: 0px;
   padding: 0px;
   height: 100vh;
-  background-color: #FFEFD3;
 }
 
 header {
@@ -59,21 +58,22 @@ footer {
   background-color: #772E25;
 }
 
-footer a, footer i{
+footer a,
+footer i {
   color: var(--main-yellow);
   text-decoration: none;
 }
 
-footer a:hover{
+footer a:hover {
   text-decoration: underline;
-  }
+}
 
-  .blockfooter{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  
-  }
+.blockfooter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
 
 .container {
   padding-top: 10px;
@@ -84,14 +84,14 @@ section {
   padding: 1rem;
 }
 
-.listfooter{
+.listfooter {
   list-style: none;
 }
 
 .h2-billeterie {
-text-align: center;
+  text-align: center;
 }
 
 .B1color {
-  background-color: #000000;
+  background-color: #8AA1B1;
 }
