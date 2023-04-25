@@ -10,6 +10,7 @@ body {
   margin: 0px;
   padding: 0px;
   height: 100vh;
+  background-color: #FFEFD3;
 }
 
 header {
@@ -91,6 +92,6 @@ section {
 text-align: center;
 }
 
-/* .accordion-button {
-  display: block;
-} */
+.B1color {
+  background-color: #000000;
+}
