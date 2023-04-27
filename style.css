@@ -92,6 +92,17 @@ section {
   text-align: center;
 }
 
-.B1color {
+.BBC {
+
   background-color: #8AA1B1;
+}
+
+.border-B {
+  border-style: solid;
+  border-color: black;
+  border-width: 8px;
+}
+
+.T-B {
+  text-align: center;
 }
